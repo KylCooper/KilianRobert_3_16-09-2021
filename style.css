@@ -445,7 +445,7 @@ header {
 @media screen and (max-width:1630px) {
     .logo-container {
         justify-content: center;
-        margin-left: -30px;
+        margin-left: -50px;
     }
     .search-title-container{
         flex-direction: column;
@@ -499,6 +499,15 @@ header {
     }
 }
 @media screen and (max-width:735px){
+    .logo {
+        margin-left: -15px;
+    }
+    .title-menu {
+        margin-left: 20px;
+    }
+    .green-bar{
+        margin-left: 20px;
+    }
     .bloc-container {
         background-color: #F6F6F6;
         width: 100%;
@@ -550,13 +559,37 @@ header {
     .thumb-content:hover {
         width: 260%;
     }
+    .menu-text{
+        width: 70%;
+    }
     .menu-subtext {
-        width: 80%;
+        width: 70%;
     }
     .price {
         margin-left: -25px;
     }
 
+}
+
+@media screen and (max-width:375px){
+
+    .thumb-content {
+        background-color: white;
+        width: 240%;
+    }
+    .thumb-content:hover {
+        width: 250%;
+    }
+    .menu-text{
+        width: 70%;
+    }
+    .menu-subtext {
+        width: 70%;
+    }
+    .price {
+        margin-left: -45px;
+    }
+    
 }
 
 
