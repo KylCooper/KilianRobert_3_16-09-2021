@@ -307,7 +307,8 @@ header {
 .purple-btn-holder {
     display: flex;
     justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    margin-top: 25px;
 }
 .bloc-container {
     width: 100%;
@@ -336,7 +337,7 @@ header {
 }
 .bloc{
     width: 30%;
-    height: 100%;
+    height: 120%;
     border-radius: 20px;
 }
 .title-container {
