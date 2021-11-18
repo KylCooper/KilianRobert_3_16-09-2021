@@ -605,10 +605,15 @@ header {
         width: 85%;
 }
 @media screen and (max-width:1630px) {
-
+    .logo-img {
+        margin-left: 20px;
+    }
+    .text {
+        margin-left: 50px;
+    }
     .logo-container {
         justify-content: center;
-        margin-left: -50px;
+        margin-left: -40px;
     }
     .search-title-container{
         flex-direction: column;
