@@ -310,8 +310,7 @@ header {
     background-color: white;  
 }
 .rest-img {
-    width: 450px;
-    height: 200px;
+
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
 }
